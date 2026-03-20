@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NorteLabs — Automação com IA para empresas</title>
+    <meta
+      name="description"
+      content="A NorteLabs cria automações inteligentes com IA para empresas que querem escalar atendimento, operações, dados e integrações com velocidade."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <canvas class="network-bg" id="networkCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="NorteLabs">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <span class="brand-text">NorteLabs</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#waitlist">Waitlist</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section reveal">
+        <div class="hero-copy">
+          <span class="eyebrow">Automação com IA para quem quer liderar</span>
+          <h1>Escale sua empresa com sistemas inteligentes que operam por você.</h1>
+          <p>
+            A NorteLabs desenha e implementa automações com IA para acelerar atendimento,
+            eliminar gargalos operacionais e transformar dados em ação.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#waitlist">Entrar na waitlist</a>
+            <a class="button button-secondary" href="#solucoes">Ver soluções</a>
+          </div>
+          <ul class="hero-metrics" aria-label="Destaques NorteLabs">
+            <li><strong>24/7</strong><span>Operação inteligente</span></li>
+            <li><strong>+IA</strong><span>Decisões orientadas por dados</span></li>
+            <li><strong>Fast</strong><span>Implementação focada em ROI</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <div class="signal-card glass-card">
+            <div class="signal-grid"></div>
+            <div class="signal-node signal-node-a"></div>
+            <div class="signal-node signal-node-b"></div>
+            <div class="signal-node signal-node-c"></div>
+            <div class="signal-node signal-node-d"></div>
+            <div class="signal-lines"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="sobre">
+        <div class="section-heading">
+          <span class="eyebrow">Sobre a NorteLabs</span>
+          <h2>Automações inteligentes para empresas que não querem crescer no modo manual.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card about-card">
+            <h3>Projetamos fluxos com IA de ponta a ponta</h3>
+            <p>
+              Mapeamos operações críticas, conectamos ferramentas e criamos agentes e
+              automações que executam tarefas repetitivas com precisão e escala.
+            </p>
+          </article>
+          <article class="glass-card about-card">
+            <h3>Foco em resultado operacional real</h3>
+            <p>
+              Menos tempo perdido, mais velocidade de resposta e processos previsíveis para
+              times comerciais, atendimento, operações e backoffice.
+            </p>
+          </article>
+          <article class="glass-card about-card">
+            <h3>Implementação sob medida</h3>
+            <p>
+              Cada empresa tem um fluxo único. Por isso, desenhamos soluções personalizadas
+              para integrar IA ao que já move seu negócio hoje.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="solucoes">
+        <div class="section-heading">
+          <span class="eyebrow">Soluções</span>
+          <h2>Quatro frentes para automatizar onde sua empresa mais ganha escala.</h2>
+        </div>
+        <div class="solutions-grid">
+          <article class="solution-card glass-card">
+            <div class="card-icon"></div>
+            <h3>Atendimento inteligente</h3>
+            <p>
+              Bots e agentes com IA para qualificar leads, responder clientes e manter sua
+              operação ativa 24 horas por dia.
+            </p>
+          </article>
+          <article class="solution-card glass-card">
+            <div class="card-icon"></div>
+            <h3>Processos operacionais</h3>
+            <p>
+              Automatize tarefas repetitivas, aprovações, triagens e handoffs internos sem
+              depender de execução manual.
+            </p>
+          </article>
+          <article class="solution-card glass-card">
+            <div class="card-icon"></div>
+            <h3>Dados e insights</h3>
+            <p>
+              Centralize informações, gere relatórios e transforme dados soltos em decisões
+              rápidas e acionáveis.
+            </p>
+          </article>
+          <article class="solution-card glass-card">
+            <div class="card-icon"></div>
+            <h3>Integração de sistemas</h3>
+            <p>
+              Conecte CRM, ERP, planilhas, WhatsApp, e-mail e outras ferramentas em fluxos
+              contínuos e inteligentes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal waitlist-section" id="waitlist">
+        <div class="waitlist-panel glass-card">
+          <div>
+            <span class="eyebrow">Waitlist</span>
+            <h2>Entre agora e seja uma das primeiras empresas a construir com a NorteLabs.</h2>
+            <p>
+              Deixe seu contato para receber novidades, abertura oficial e oportunidades de
+              implementação prioritária.
+            </p>
+          </div>
+          <form id="waitlistForm" class="waitlist-form" novalidate>
+            <label>
+              <span>Nome</span>
+              <input type="text" name="name" placeholder="Seu nome" required minlength="2" />
+            </label>
+            <label>
+              <span>E-mail</span>
+              <input type="email" name="email" placeholder="voce@empresa.com" required />
+            </label>
+            <button class="button button-primary" type="submit">Garantir minha vaga</button>
+            <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="#top" aria-label="NorteLabs">
+          <span class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </span>
+          <span class="brand-text">NorteLabs</span>
+        </a>
+        <p>IA, automação e execução para empresas que querem crescer com inteligência.</p>
+      </div>
+      <div class="social-links" aria-label="Redes sociais">
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="X">X</a>
+      </div>
+    </footer>
+
+    <script src="/script.js" defer></script>
+  </body>
+</html>
